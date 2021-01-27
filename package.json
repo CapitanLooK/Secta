@@ -1,0 +1,14 @@
+{
+  "name": "windows",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss secta/assets/scss/style.scss secta/assets/css/styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  
+  },
+  "author": "",
+  "license": "ISC"
+}

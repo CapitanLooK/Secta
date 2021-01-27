@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+@import "reset";
+
+@import "vars";
+
+@import "adjust";
+
+@import "backgroundColors";
+
+@import "images";
+
+@import "tags";
+
+@import "index";
+
+@import "nav";
+
+@import "input";
+
+@import "footer";
+
+@import "map";
+
+@import "cards";
+
+@import "modal";
+
+@import "timeLine";
+
+@import "menu";

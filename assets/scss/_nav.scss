@@ -1,0 +1,39 @@
+/*nav bar*/
+.nav-item {
+    a{
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.5rem;
+        color: var(--white) !important;
+        font-weight: 600 !important;
+        margin-left: 2rem;
+        text-decoration: none;
+    }
+    a:hover{
+        color: var(--yellow) !important;
+        background-color: transparent !important;
+        transform: scale(1.1, 1);
+        transition: all 0.5s;
+    }
+}
+
+.nav-item {
+    i{
+        margin-top: 0.8rem;
+        margin-right: 2rem;
+        font-size: 2rem;
+    
+    }
+}
+
+.facebook:hover{
+    color: #3b5998 !important;
+    transform: scale(1.5, 1.5);
+    transition: all 0.5s;
+}
+
+.instagram:hover{
+    color: #C13584 !important;
+    transform: scale(1.5, 1.5);
+    transition: all 0.5s;
+}
+/*end nav bar*/

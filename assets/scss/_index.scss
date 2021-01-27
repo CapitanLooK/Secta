@@ -1,0 +1,33 @@
+/*index*/
+.main__h1--font{
+    font-family: 'Langar', cursive;
+    text-align: center;
+    font-size: 4rem;
+    color: var(--white);
+}
+.main__h1--border{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    border-top: 0.4rem solid var(--white);
+    border-bottom: 0.4rem solid var(--white);
+}
+
+.main__slogan{
+    color: var(--white);
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Sail', cursive;
+    margin-top: 2rem;
+    font-weight: 600;
+}
+
+.desc{
+    font-size: 3rem;
+    font-weight: 500;
+    font-family: 'Yusei Magic', sans-serif;
+}
+/*end index*/

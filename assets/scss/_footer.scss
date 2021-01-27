@@ -1,0 +1,32 @@
+/*footer*/
+.copyright{
+    font-size: 1.5rem;
+}
+
+.dev{
+    font-size: 4rem;
+    text-align: right;
+}
+
+.am{
+    animation: color-change 3s infinite;
+    font-size: 1rem;
+    font-family: 'Press Start 2P', cursive;
+    text-decoration: none;
+}
+
+@keyframes color-change{
+    0% {color: #2825D7;}
+    25% {color: #260F76;}
+    50% {color: #3B1D2A;}
+    75% {color: #712130;}
+    100% {color:  #BE1525;}
+}
+
+footer {
+    p{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+}
+/*end footer*/
