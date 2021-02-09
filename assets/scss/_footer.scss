@@ -1,6 +1,9 @@
 /*footer*/
-.copyright{
+footer {
+    p{
     font-size: 1.5rem;
+    font-weight: 500;
+    }
 }
 
 .dev{
@@ -21,12 +24,5 @@
     50% {color: #3B1D2A;}
     75% {color: #712130;}
     100% {color:  #BE1525;}
-}
-
-footer {
-    p{
-    font-size: 1.5rem;
-    font-weight: 500;
-}
 }
 /*end footer*/

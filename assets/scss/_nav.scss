@@ -3,13 +3,13 @@
     a{
         font-family: 'Poppins', sans-serif;
         font-size: 1.5rem;
-        color: var(--white) !important;
+        color: $white !important;
         font-weight: 600 !important;
         margin-left: 2rem;
         text-decoration: none;
     }
     a:hover{
-        color: var(--yellow) !important;
+        color: $yellow !important;
         background-color: transparent !important;
         transform: scale(1.1, 1);
         transition: all 0.5s;
@@ -24,6 +24,10 @@
     
     }
 }
+
+.navbar-collapse{
+    text-align: center !important;
+    }
 
 .facebook:hover{
     color: #3b5998 !important;

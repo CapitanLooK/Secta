@@ -47,7 +47,7 @@
                   <a href="#"><span><i class="fab fa-instagram-square instagram"></i></span></a>
                 </li>
                 <li class="nav-item">
-                  <a href="#"><span><i class="fab fa-facebook-square facebook"></i></span></a>
+                  <a href="https://www.facebook.com/Secta-104908181611344" target="_blank"><span><i class="fab fa-facebook-square facebook"></i></span></a>
                 </li>
               </ul>
             </div>
@@ -66,14 +66,14 @@
               <P class="contact"><b>Si queres que <strong><b>Secta Brewing Company</b></strong> este en tu bar, negocio y simplemente queres consultar. Escribinos!</b></P>
             </div>
             <div class="container-fluid section__form-group">
-                <form action="">
+                <form  method="POST" id="contacto" name="contacto">
                     <label for="nombre"></label>
-                    <input type="text" name="nombre" placeholder="NOMBRE"><br><br>
+                    <input type="text" name="nombre" id="nombre" placeholder="NOMBRE"><br><br>
                     <label for="email"></label>
-                    <input type="email" name="email" placeholder="CORREO"><br><br>
-                    <label for="comentario"></label><br>
-                    <textarea name="comentario" placeholder="COMENTARIOS"></textarea><br><br>
-                    <input type="button" name="enviar" value="ENVIAR"><br><br><br><br>
+                    <input type="email" name="email" id="email" placeholder="CORREO"><br><br>
+                    <label for="consulta"></label><br>
+                    <textarea name="consulta" id="consulta" placeholder="CONSULTA"></textarea><br><br>
+                    <input type="submit" name="enviar" value="ENVIAR"><br><br><br><br>
                 </form>
             </div>
         </section>
@@ -111,7 +111,9 @@
           }
         }
       </script>
-      <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v9.0" nonce="k76KuKQQ"></script>
+      <script src="js/smtp.js"></script>
+      <script src="js/sendMail.js"></script>
+      <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
       <script src="https://kit.fontawesome.com/ea6ac943ee.js" crossorigin="anonymous"></script>
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

@@ -1,21 +1,23 @@
 /*background colors*/
+
 .white{
-    background-color: var(--white);
+    background-color: $white;
 }
 
 .grey{
-    background-color: var(--grey);
+    background-color: $grey;
 }
 
 .yellow{
-    background-color: var(--gold);
+    background-color: $gold;
 }
 
 .light-grey{
-    background-color: var(--lightGrey);
+    background-color: $lightGrey;
 }
 
 .light-black{
-    background-color: var(--lightBlack);
+    background-color: $lightBlack;
 }
+
 /*background colors*/
