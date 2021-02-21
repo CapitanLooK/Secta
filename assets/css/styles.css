@@ -50,37 +50,37 @@ body {
 /*background colors*/
 /*background images*/
 .main__tittle__background--index {
-  background: url(../../img/backIndex.jpg);
+  background: url(../img/backIndex.jpg);
   background-repeat: no-repeat;
   background-size: 100vw; }
 
 .main__tittle__background--cervezas {
-  background: url(../../img/cerveza.jpg);
+  background: url(../img/cerveza.jpg);
   background-repeat: no-repeat;
   background-size: 100vw; }
 
 .main__tittle__background--bubble {
-  background: url(../../img/bubble.jpg);
+  background: url(../img/bubble.jpg);
   background-repeat: no-repeat;
   background-size: 100vw; }
 
 .main__tittle__background--contacto {
-  background: url(../../img/contacto.jpg);
+  background: url(../img/contacto.jpg);
   background-repeat: no-repeat;
   background-size: 100vw; }
 
 .main__tittle__background--encontranos {
-  background: url(../../img/dondeEncontrarnos.jpg);
+  background: url(../img/dondeEncontrarnos.jpg);
   background-repeat: no-repeat;
   background-size: 100vw; }
 
 .main__tittle__background--nosotros {
-  background: url(../../img/sobreNosotros.jpg);
+  background: url(../img/sobreNosotros.jpg);
   background-repeat: no-repeat;
   background-size: 100vw; }
 
 .main__tittle__background--tienda {
-  background: url(../../img/tienda.jpg);
+  background: url(../img/tienda.jpg);
   background-repeat: no-repeat;
   background-size: 100vw; }
 
