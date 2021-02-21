@@ -1,7 +1,7 @@
 /*nav bar*/
 .nav-item {
     a{
-        font-family: 'Poppins', sans-serif;
+        font-family: $poppins;
         font-size: 1.5rem;
         color: $white !important;
         font-weight: 600 !important;
@@ -14,9 +14,6 @@
         transform: scale(1.1, 1);
         transition: all 0.5s;
     }
-}
-
-.nav-item {
     i{
         margin-top: 0.8rem;
         margin-right: 2rem;
@@ -27,7 +24,7 @@
 
 .navbar-collapse{
     text-align: center !important;
-    }
+}
 
 .facebook:hover{
     color: #3b5998 !important;
@@ -39,5 +36,20 @@
     color: #C13584 !important;
     transform: scale(1.5, 1.5);
     transition: all 0.5s;
+}
+
+//queries
+
+@media (max-width: 991.98px){
+    .navbar-collapse{
+        text-align: center !important;
+    }
+    i{
+        position: relative;
+        margin: 0 auto;
+        padding-right: 0.1rem;
+        padding-left: 2rem;
+        
+    }
 }
 /*end nav bar*/

@@ -1,8 +1,0 @@
----------Changelog ver 0.1----------
-*** Se cambio tipografia de los h1 y las descripciones.
-*** Se agrego Time Line en la seccion sobre nosotros.
-*** Se cambio link a pagina real de facebook.
-*** Se agrego envio de mails desde formulario de contacto.
-*** Se cambio fotos de seccion cervezas
-*** Se centro collapse
-*** Se cambio color de tarjetas

@@ -1,0 +1,62 @@
+/*background colors*/
+
+.white{
+    background-color: $white;
+}
+
+.grey{
+    background-color: $grey;
+}
+
+.yellow{
+    background-color: $gold;
+}
+
+.light-grey{
+    background-color: $lightGrey;
+}
+
+.light-black{
+    background-color: $lightBlack;
+}
+
+/*background colors*/
+
+/*background images*/
+
+.main__tittle__background--index{
+    background: url(../../img/backIndex.jpg);
+    @include nr-100vw;
+}
+
+.main__tittle__background--cervezas{
+    background: url(../../img/cerveza.jpg);
+    @include nr-100vw;
+}
+
+.main__tittle__background--bubble{
+    background: url(../../img/bubble.jpg);
+    @include nr-100vw;
+}
+
+.main__tittle__background--contacto{
+    background: url(../../img/contacto.jpg);
+    @include nr-100vw;
+}
+
+.main__tittle__background--encontranos{
+    background: url(../../img/dondeEncontrarnos.jpg);
+    @include nr-100vw;
+}
+
+.main__tittle__background--nosotros{
+    background: url(../../img/sobreNosotros.jpg);
+    @include nr-100vw;
+}
+
+.main__tittle__background--tienda{
+    background: url(../../img/tienda.jpg);
+    @include nr-100vw;
+}
+
+/*end background images*/

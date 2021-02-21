@@ -1,11 +1,26 @@
 /*vars*/
 
+//colors
 $white: #F0F1FC;
+$noWhite: #e6e7f0;
 $lightGrey: #ADAAaa;
 $grey: #403E3E;
 $yellow: #EFDD13;
 $gold: #aa8024;
 $black: #0C0B0B;
 $lightBlack: #2b2929;
+
+//fonts
+$start: 'Press Start 2P', cursive;
+$montserrat: 'Montserrat', sans-serif;
+$bebas: 'Bebas Neue', cursive;
+$poppins: 'Poppins', sans-serif;
+
+//mixin
+
+@mixin nr-100vw {
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
 
 /*end vars*/

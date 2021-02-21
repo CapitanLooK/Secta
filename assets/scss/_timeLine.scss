@@ -3,13 +3,11 @@
 .timeline{
   color: $white;
   
-  h1,
-  ul li .content h2{
+  h1, ul li .content h2{
     text-shadow: 1px 1px 1px rgba(56, 56, 56, 0.5);
   }
 
   ul{
-    background: $gold;
     padding: 5rem 0;
     
     li{
@@ -119,4 +117,4 @@
     }
   }
 }
-/*timeline*/
+/*end timeline*/

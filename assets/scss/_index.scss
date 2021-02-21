@@ -1,28 +1,18 @@
 /*index*/
 .main__h1--font{
-    font-family: 'Bebas Neue', cursive;
+    font-family: $bebas;
     text-align: center;
     font-weight: 300;
-    font-size: 7rem;
+    font-size: 6rem;
     color: $white;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
 }
-
-.main__h1--border{
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-    margin-left: 10rem;
-    margin-right: 10rem;
-    padding-bottom: 2rem;
-    padding-top: 2rem;
-    border-top: 0.4rem solid $white;
-    border-bottom: 0.4rem solid $white;
-}
-
 .main__slogan{
     color: $white;
     text-align: center;
-    font-size: 4rem;
-    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-family: $montserrat;
     margin-top: 2rem;
     font-weight: 800;
 }
@@ -30,7 +20,80 @@
 .desc{
     font-size: 2rem;
     font-weight: 600;
-    font-family: 'Montserrat', sans-serif;
+    font-family: $montserrat;
+    text-align: center;
 }
+
+.index__article-desc{
+    display: flex;
+    flex-direction: column;
+    font-size: 3rem;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+    padding-left: 5rem;
+    p{
+        margin-top: 15rem;
+    }
+    
+}
+
+.index__article--flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.fb-page{
+    width: 36rem !important;
+}
+
+/*queries*/
+
+/*tablet*/
+//portrait
+@media (min-width: 576px) and (max-width: 991.98px) and (orientation:portrait) {
+    .main__h1--font{
+        font-size: 4rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+
+    .desc{
+        font-size: 1.5rem;
+        font-weight: 600;
+        font-family: $montserrat;
+        text-align: center;
+    }
+}
+//landscape
+@media (min-width: 991.98px) and (max-width: 1199.98px)and (orientation:landscape) {
+    .main__h1--font{
+        font-size: 5rem;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+}
+/*end tablet*/
+
+/*mobile*/
+//portrait
+@media (max-width: 575.98px) and (orientation:portrait){
+    .main__h1--font{
+        font-size: 4rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+}
+
+//landscape
+@media (min-width: 576px) and (max-width: 991.98px) and (orientation:landscape){
+    .main__h1--font{
+        font-size: 5rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+} 
+/*end mobile*/
 
 /*end index*/
