@@ -111,9 +111,10 @@ body {
 .main__slogan {
   color: #F0F1FC;
   text-align: center;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-family: "Montserrat", sans-serif;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
   font-weight: 800; }
 
 .desc {
@@ -157,7 +158,9 @@ body {
   .main__h1--font {
     font-size: 5rem;
     margin-top: 4rem;
-    margin-bottom: 4rem; } }
+    margin-bottom: 4rem; }
+  .main__slogan {
+    font-size: 1.5rem; } }
 
 /*end tablet*/
 /*mobile*/
@@ -165,13 +168,17 @@ body {
   .main__h1--font {
     font-size: 4rem;
     margin-top: 2rem;
-    margin-bottom: 2rem; } }
+    margin-bottom: 2rem; }
+  .main__slogan {
+    font-size: 1.5rem; } }
 
 @media (min-width: 576px) and (max-width: 991.98px) and (orientation: landscape) {
   .main__h1--font {
     font-size: 5rem;
     margin-top: 2rem;
-    margin-bottom: 2rem; } }
+    margin-bottom: 2rem; }
+  .main__slogan {
+    font-size: 1.5rem; } }
 
 /*end mobile*/
 /*end index*/
@@ -291,6 +298,7 @@ footer .am {
   font-family: "Press Start 2P", cursive;
   text-decoration: none; }
 
+/* queries */
 @keyframes color-change {
   0% {
     color: #2825D7; }
@@ -321,6 +329,7 @@ iframe {
   height: 100%; }
 
 /*end maps*/
+/* cards */
 .art {
   width: 100vw;
   height: 100%;
@@ -345,7 +354,7 @@ iframe {
     .card-container .card h2 {
       color: #F0F1FC;
       font-size: 2.5rem;
-      padding: 3rem 0;
+      padding-top: 6rem;
       text-align: center; }
     .card-container .card .content {
       position: relative;
@@ -367,6 +376,14 @@ iframe {
     clip-path: circle(18rem at center 0);
     text-align: center; }
 
+/* queries */
+@media (max-width: 991.98px) {
+  .card-container {
+    width: 30rem;
+    height: 36rem;
+    margin: 8rem; } }
+
+/* cards */
 /*timeline*/
 .timeline {
   color: #F0F1FC; }

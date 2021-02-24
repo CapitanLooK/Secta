@@ -1,4 +1,5 @@
 /*nav bar*/
+
 .nav-item {
     a{
         font-family: $poppins;
@@ -39,7 +40,6 @@
 }
 
 //queries
-
 @media (max-width: 991.98px){
     .navbar-collapse{
         text-align: center !important;
@@ -52,4 +52,5 @@
         
     }
 }
+
 /*end nav bar*/

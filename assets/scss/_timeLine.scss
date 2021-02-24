@@ -85,7 +85,6 @@
 }
 
 /* queries */
-
 @media screen and (max-width: 1020px) {
   .timeline ul li .content {
     width: 41vw;
@@ -101,20 +100,18 @@
     
     .content {
       width: calc(100vw - 100px);
-    
-      h2{
+    h2{
         text-align: initial;
       }
     }
-    
     &:nth-child(even) .content {
       left: 4.5rem;
       background: $grey;
     }
-    
     &:nth-child(even) .content:before {
       left: -3.3rem;
     }
   }
 }
+
 /*end timeline*/

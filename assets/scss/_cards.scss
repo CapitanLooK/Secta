@@ -1,3 +1,4 @@
+/* cards */
 
 .art{
   width: 100vw;
@@ -27,7 +28,7 @@
     h2{
       color: $white;
       font-size: 2.5rem;
-      padding: 3rem 0;
+      padding-top: 6rem;
       text-align: center;
     }
   
@@ -64,3 +65,14 @@
     text-align: center;
   }
 }
+
+/* queries */
+@media (max-width: 991.98px){
+  .card-container{
+    width: 30rem;
+    height: 36rem;
+    margin: 8rem;
+  }
+}
+
+/* cards */
