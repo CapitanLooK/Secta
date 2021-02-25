@@ -1,4 +1,7 @@
----------Changelog ver 0.2----------
+---------Changelog ver 0.2.1----------
+***Se realizaron cambios menores
+
+---------Changelog ver 0.2------------
 *** Se ajusto tamano de imagenes de fondo.
 *** Se limpio codigo CSS.
 *** Se agrego mixins.

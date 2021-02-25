@@ -59,7 +59,7 @@ body {
   background-repeat: no-repeat;
   background-size: 100vw; }
 
-.main__tittle__background--bubble {
+.main__tittle__background--cat {
   background: url(../img/bubble.jpg);
   background-repeat: no-repeat;
   background-size: 100vw; }
@@ -118,6 +118,12 @@ body {
   font-weight: 800; }
 
 .desc {
+  font-size: 3rem;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  text-align: center; }
+
+.desc-contact {
   font-size: 2rem;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
@@ -128,10 +134,8 @@ body {
   flex-direction: column;
   font-size: 3rem;
   flex-wrap: wrap;
-  padding-top: 2rem;
+  padding-top: 13rem;
   padding-left: 5rem; }
-  .index__article-desc p {
-    margin-top: 15rem; }
 
 .index__article--flex {
   display: flex;
@@ -152,7 +156,10 @@ body {
     font-size: 1.5rem;
     font-weight: 600;
     font-family: "Montserrat", sans-serif;
-    text-align: center; } }
+    text-align: center; }
+  .index__article-desc {
+    padding-top: 1rem;
+    padding-left: 3rem; } }
 
 @media (min-width: 991.98px) and (max-width: 1199.98px) and (orientation: landscape) {
   .main__h1--font {
@@ -160,7 +167,15 @@ body {
     margin-top: 4rem;
     margin-bottom: 4rem; }
   .main__slogan {
-    font-size: 1.5rem; } }
+    font-size: 1.5rem; }
+  .index__article-desc {
+    padding-top: 1rem;
+    text-align: center; }
+  .desc {
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    text-align: center; } }
 
 /*end tablet*/
 /*mobile*/
@@ -170,7 +185,16 @@ body {
     margin-top: 2rem;
     margin-bottom: 2rem; }
   .main__slogan {
-    font-size: 1.5rem; } }
+    font-size: 1.5rem; }
+  .index__article-desc {
+    font-size: 2rem;
+    padding-top: 1rem;
+    text-align: center; }
+  .desc {
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    text-align: center; } }
 
 @media (min-width: 576px) and (max-width: 991.98px) and (orientation: landscape) {
   .main__h1--font {
@@ -178,7 +202,16 @@ body {
     margin-top: 2rem;
     margin-bottom: 2rem; }
   .main__slogan {
-    font-size: 1.5rem; } }
+    font-size: 1.5rem; }
+  .index__article-desc {
+    font-size: 2rem;
+    padding-top: 1rem;
+    text-align: center; }
+  .desc {
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    text-align: center; } }
 
 /*end mobile*/
 /*end index*/
